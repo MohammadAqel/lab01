@@ -5,11 +5,11 @@ class BeaHornedst extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            numOfClike: 0
+            numOfClick: 0
         }
     }
-    suumNumberOfClike = () => {
-        this.setState({ numOfClike: this.state.numOfClike + 1 })
+    sumNumberOfClick = () => {
+        this.setState({ numOfClick: this.state.numOfClick + 1 })
     }
     render() {
         return (
@@ -25,9 +25,9 @@ class BeaHornedst extends React.Component {
                             {this.props.description}
                         </Card.Text>
                         <Card.Text>
-                            {this.state.numOfClike}
+                            {this.state.numOfClick}
                         </Card.Text>
-                        <Button onClick={this.suumNumberOfClike} variant='primary'>Add Clikcs
+                        <Button onClick={this.sumNumberOfClick} variant='primary'>Add Click
                     </Button>
                     </Card.Body>
                 </Card>
