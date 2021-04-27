@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-class BeaHornedst extends React.Component {
+class HornedBeast extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
