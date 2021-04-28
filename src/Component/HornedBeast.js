@@ -25,7 +25,7 @@ class HornedBeast extends React.Component {
               {this.props.description}
             </Card.Text>
             <Card.Text>
-              {this.state.numOfClick}
+              {this.state.numOfClick} ❤️
             </Card.Text>
             <Button onClick={this.sumNumberOfClick} variant='primary'>Add Click
             </Button>
